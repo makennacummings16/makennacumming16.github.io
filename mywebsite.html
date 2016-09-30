@@ -1,0 +1,84 @@
+
+<!doctype html>
+
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+
+
+  <head>
+
+    <meta charset="utf-8">
+
+    
+<title>ByMHC..ME</title>  
+
+<style>
+body{
+background: #4775d1
+</style>
+
+  </head>
+
+  <body>
+
+    <a href="index.html">Home</a>
+
+    <a href="MyGallery.html">My Gallery</a>
+<center>
+
+    <h1>My Life</h1>
+
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1qSLOS3fi_XNv7WS3et5OQjk7dpzVrnR4h1AUdLanQRjptPbS">
+  </body>
+<p>My name is MaKenna Halle Cummings I am 17 years old born on May 28th, 1999.</p>
+<img src="baby.jpg" style="width:300px;height:300px;">
+<P>My bestfriend in life is my fat loveable cat Sally.</p>
+<p> I love playing volleyball, and hanging out with my friends (not just my cat!)</p>
+</html>
+
+<img src="cat.jpg" style="width:400px;height:300px;">
+<p>Volleyball takes up most of  my time, but I love it!<p/>
+<img src="volleyball.jpg" style="width:550px;height:320px;">
+</center>
+
+<h2 class="w3-center">Here's My Life Through Some Pictures!</h2>
+
+<div class="w3-content w3-section" style="max-width:400px">
+  <img class="mySlides" src="mySlides/vball.jpg" style="width:100%">
+  <img class="mySlides" src="mySlides/swim.jpg" style="width:100%">
+  <img class="mySlides" src="mySlides/hockey.jpg" style="width:100%">
+  <img class="mySlides" src="mySlides/disney.jpg" style="width:100%">
+  <img class="mySlides" src="mySlides/dyw.jpg" style="width:100%">
+  <img class="mySlides" src="mySlides/volley.jpg" style="width:100%">
+  <img class="mySlides" src="mySlides/asb.jpg" style="width:100%">
+  <img class="mySlides" src="mySlides/beach.jpg" style="width:100%">
+  <img class="mySlides" src="mySlides/mexico.jpg" style="width:100%">
+  <img class="mySlides" src="mySlides/prom.jpg" style="width:100%">
+
+  </div>
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html> 
